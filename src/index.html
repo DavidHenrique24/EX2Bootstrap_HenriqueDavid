@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Practico bootstrap</title>
+    <link rel="stylesheet" href="./styles/custom.scss">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Menu arriba del todo -->
+    <div class="principio container-fluid"> 
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FENDER.COM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PLAY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TUNE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PRINCIPIANTES</a>
+                </li>
+            </ul>
+            <div class="d-flex align-items-center">
+                <i class="fas fa-user me-2 text-secondary" style="font-size: 15px;"></i>
+                <a href="#" style="text-decoration: none;"><span class="text-secondary fw-bold">INICIAR SESION</span></a>
+            </div>
+        </div>
+    </nav>
+   <!-- Header -->
+    <header class="container-fluid" style=" max-width: 70%;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgZoTSYcmGwREJ9sKsjf3v-sNGjAvvfxCKA&s"  width="110">
+               </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-center w-100">
+                    <div class="position-relative">
+                        <input class="form-control form-control-lg rounded-pill ps-5" type="search" placeholder="Buscar" aria-label="Buscar" style="width: 700px; height: 45px;">
+                        <i class="lupa fas fa-search position-absolute"></i>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav"> 
+                    <ul class="navbar-nav ms-auto"> 
+                        <li class="nav-item me-5">
+                            <a href="#"><i class="icono fas fa-map-marker-alt" ></i></a>                 
+                        </li>
+                        <li class="nav-item me-5"> 
+                            <a href="#"><i class="icono fas fa-shopping-cart"></i></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+     <!-- navbar de cosas que venden-->
+     <nav class="navbar navbar-expand-lg" style="max-width: 67%; margin: 0 auto;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">GUIA DE REGALOS <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">GUITARRAS ELECTRICAS <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">BAJOS <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">SQUIER <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">INSTRUMENTOS ACUSTICOS <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">AMPLIFICADORES & SONIDO <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">PEDALES <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">ACCESORIOS & PIEZAS <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letraMenu nav-link" href="#">MOD SHOP <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- promo -->
+    <div class="d-flex justify-content-center align-items-center bg-black text-white" style="height: 40px; font-size:15px ;">
+        <p class="text-center text-white mt-3">
+            <i class="fas fa-box"></i> Envio gratis en pedidos superiores a 49€
+            <a href="#" class="text-white fw-bold">| Fechas limite de envio para Navidad y Reyes</a>
+        </p>
+    </div>
+    
+    </div>
+    <!-- Inicio -->
+    <main class="container-fluid p-0">
+        <!-- imagen de guitarra gigante -->
+        <div class="position-relative" style="height: 700px;">
+            <img src="https://stuff.fendergarage.com/images/B/W/I/UltraIIGroup_HPS_Desktop_ES@2x.jpg" class="guitarraImagen w-100">
+          <div class="position-absolute top-50 start-0 translate-middle-y text-white ps-4">
+                <img src="https://stuff.fendergarage.com/images/R/X/u/UltraIIGroup_Lockup_ES_Left@2x.png" alt="" style="width: 600px;"><br><br>
+                <div class="description">
+                    Las guitarras y bajos de la serie American Ultra II incorporan materiales <br>de primera calidad, un trabajo artesanal de precisión y un diseño innovador, <br>ofreciendo instrumentos que no solo establecen nuevos estándares, sino que<br> también están diseñados para perdurar.
+                </div>
+               
+                <button type="button" class="btn btn-light rounded-pill m-2 py-2"><strong>COMPRAR</strong></button>
+                <button type="button" class="btn btn-outline-light rounded-pill py-2"><strong>SABER MAS</strong></button>
+            </div>
+        </div>
+        <BR></BR>
+        <!--Destacados de Fender  -->
+        <div class="" style="max-width: 90%; margin: 0 auto;">
+            <div>
+                <nav class="navbar navbar-expand-lg" >
+                        <div>
+                            <h4><strong>DESTACADOS DE FENDER</strong></h4>
+                            <ul class="navbar-nav" style="text-align: left;">
+                                <li class="nav-item">
+                                    <a class="letraFender nav-link" href="#">NOVEDADES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="letraFender nav-link" href="#">MAS VENDIDOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="letraFender nav-link" href="#">SERIE PLAYER II</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="letraFender nav-link " href="#">PRINCIPIANTES </a>
+                                </li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+     
+        <!-- Imagenes destacadas de fender -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="tarjeta">
+                        <img src="https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=712/https://www.fmicassets.com/Damroot/ZoomJpg/10040/0117450754_fen_ins_frt_1_rr.jpg" alt="Guitarra Eléctrica Squier">
+                        <div class="badge">Nuevo</div>
+                        <div class="caption m-3">
+                            <h5>Guitarra Eléctrica Squier</h5><br><br>
+                            <p>Precio: 399€</p>
+                            <p>2 Colores</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tarjeta">
+                        <img src="https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=712/https://www.fmicassets.com/Damroot/ZoomJpg/10043/0119142733_fen_ins_frt_1_rr.jpg" alt="Guitarra Eléctrica Squier">
+                        <div class="badge">Nuevo</div>
+                        <div class="caption m-3">
+                            <h5>Guitarra Eléctrica Squier</h5><br><br>
+                            <p>Precio: 399€</p>
+                            <p>2 Colores</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tarjeta">
+                        <img src="https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=712/https://www.fmicassets.com/Damroot/ZoomJpg/10036/0119172796_fen_ins_frt_1_rr.jpg" alt="Guitarra Eléctrica Squier">
+                        <div class="badge ">Nuevo</div>
+                        <div class="caption m-3">
+                            <h5>Guitarra Eléctrica Squier</h5><br><br>
+                            <p>Precio: 399€</p>
+                            <p>2 Colores</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tarjeta">
+                        <img src="https://via.placeholder.com/800x400.png?text=Producto+2" alt="Guitarra Eléctrica">
+                        <div class="badge bg-primary">Más Vendido</div>
+                        <div class="caption m-3">
+                            <h5>Guitarra Eléctrica Squier</h5><br><br>
+                            <p>Precio: 399€</p>
+                            <p>2 Colores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+        
+        
+    </main>
+    
+    
+
+    <!-- Footer -->
+    <footer></footer>
+        
+                
+    
+    
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
