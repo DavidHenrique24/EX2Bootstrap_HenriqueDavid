@@ -33,6 +33,17 @@ body {
     color:red 
 
 }
+.card {
+  max-width: 100%;
+}
+.card-body {
+  padding: 10px;
+}
+.card img {
+  height: 600px; 
+  object-fit: cover;
+}
+
 .guitarraImagen{
  object-fit: cover;
  object-position: center;
@@ -50,26 +61,108 @@ body {
     padding-bottom: 5px; 
 }
 
+.card-title{
+    color: #000;
+    font-family: FuturaPT-Demi, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
 
-.tarjeta {
+.precio{
+    color: #666;
+    font-family: FuturaPT-Demi, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 16px;
+    
+}
+
+.colores{
+    color: #666;
+    font-family: FuturaPT-Demi, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.espacio{
+    margin: 150px;
+}
+
+.zoom {
     position: relative;
-    margin: 20px 0;
-    border-radius: 10px;
- 
+    overflow: hidden;
+  }
+
+  /* Efecto zoom */
+  .zoom img {
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+  }
+  .zoom:hover img {
+    transform: scale(1.03); 
+  }
+  .card-body {
+    padding-left: 0;
+  }
+  
+  .tituloCarta a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+  .tituloCarta{
+    color: #242424;
+    font-family: FuturaPT-Demi, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  a.text-white {
+    text-decoration: underline;
+    text-decoration-color: white; 
+    font-size: 15px;
+  }
+  .nav-item {
+    margin-bottom: 30px; 
 }
-.tarjeta img {
-    margin-top: 120px;
-    margin-bottom: 120px;
-    width: 400px;
-    height: 200px;
-    transform: rotate(-90deg); 
-   
+a.text-black{
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0); 
+  font-size: 15px;
 }
 
-.badge {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 0.8rem;
-    background-color: #d52b1e;
+.miniTexto{
+  color: #666;
+  font-family: FuturaPT-Demi, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 16px;
+
+}
+
+.imagenesCarta{
+    height: 800px; 
+    object-fit: cover;
+  
+}
+
+.iconoSegu{
+    font-size: 30px
+}
+
+.letraSegu{
+  color: inherit;
+  font-family: FuturaPT, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42;
+  margin-bottom: 24px;
+  min-height: 60px;
 }
