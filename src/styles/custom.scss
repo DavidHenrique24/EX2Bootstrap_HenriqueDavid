@@ -12,157 +12,33 @@ body {
     margin-top: 20px;
 }
 
-.icono{
-    color:black;
-    font-size: 20px
-}
-.lupa{
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%); //Esto lo saque de chatgpt
-    font-size: 20px; 
-    color: #9e9e9e;
-}
-
-.letraMenu{
-    font-size: 12px;
-    font-weight: 800;
-}
-
-.letraMenu:hover{
-    color:red 
-
-}
-.card {
-  max-width: 100%;
-}
-.card-body {
-  padding: 10px;
-}
-.card img {
-  height: 600px; 
-  object-fit: cover;
-}
-
-.guitarraImagen{
- object-fit: cover;
- object-position: center;
- width: 80%;
- height: 100%;
-}
-
-.letraFender {
-    font-size: 12px;
-    font-weight: 700;
-}
-
-.letraFender:hover {
-    border-bottom: 2px solid black; 
-    padding-bottom: 5px; 
-}
-
-.card-title{
-    color: #000;
-    font-family: FuturaPT-Demi, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 22px;
-}
-
-.precio{
-    color: #666;
-    font-family: FuturaPT-Demi, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1;
-    margin-bottom: 16px;
-    
-}
-
-.colores{
-    color: #666;
-    font-family: FuturaPT-Demi, sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 1;
-    margin-bottom: 16px;
-}
-
-.espacio{
-    margin: 150px;
-}
-
-.zoom {
-    position: relative;
-    overflow: hidden;
-  }
-
-  /* Efecto zoom */
-  .zoom img {
-    transition: transform 0.3s ease;
-    object-fit: cover; 
-  }
-  .zoom:hover img {
-    transform: scale(1.03); 
-  }
-  .card-body {
-    padding-left: 0;
-  }
-  
-  .tituloCarta a {
-    color: inherit; 
-    text-decoration: none; 
-  }
-
-  .tituloCarta{
-    color: #242424;
-    font-family: FuturaPT-Demi, sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-bottom: 0;
-  }
-
-  a.text-white {
-    text-decoration: underline;
-    text-decoration-color: white; 
-    font-size: 15px;
-  }
-  .nav-item {
-    margin-bottom: 30px; 
-}
-a.text-black{
-  text-decoration: underline;
-  text-decoration-color: rgb(0, 0, 0); 
-  font-size: 15px;
-}
-
-.miniTexto{
-  color: #666;
-  font-family: FuturaPT-Demi, sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1;
-  margin-bottom: 16px;
+.textoBlanco{
+text-decoration: none;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
 
 }
 
-.imagenesCarta{
-    height: 800px; 
-    object-fit: cover;
-  
+.texto{
+text-decoration: none;
+font-family: Raleway;
+font-size: 24px;
+font-weight: 200;
+line-height: 10px;
+text-align: left;
+
 }
 
-.iconoSegu{
-    font-size: 30px
+.titulo{
+text-decoration: none;
+font-size: 60px;
+text-align: left;
+
 }
 
-.letraSegu{
-  color: inherit;
-  font-family: FuturaPT, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42;
-  margin-bottom: 24px;
-  min-height: 60px;
-}
